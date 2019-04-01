@@ -13,3 +13,7 @@ gem 'rspec'
 gem 'rack-test'
 gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'require_all'
+
+gem 'activerecord', '~> 5.2', '>= 5.2.3', :require => 'active_record'
+
+gem 'sqlite3', '~> 1.3.7'
